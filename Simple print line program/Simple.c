@@ -4,7 +4,23 @@
 int main(){
     //the main method returns an int datatype and does not take any parameters
 
-    printf("This is a simple print line program!");
+    //what is the difference between puts and printf?
+    printf("This is a simple print line program!\n");
+    puts("This is a simple print line program!");
+
+    //puts automatically adds a new line to the end of the string hence the space in output
+    char* myString = "This is a print line program!\n";
+    printf(myString);
+    puts(myString);
+
+    //printf allows for variables in a string to be modified during run time with the proper syntax
+    char* thisString = "This string has a % character!\n";
+    printf(thisString);
+    puts(thisString);
+
+    printf("%s", thisString);
+    puts(thisString);
+
     return 0;
 
 }
