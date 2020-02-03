@@ -30,5 +30,5 @@ int main(){
     average = average/5;
     printf("The average marks obtained in subject %d is: %.2f\n", i, average);
     }
-return 0;
+    return 0;
 }

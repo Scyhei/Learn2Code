@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Functions",
+            "request": "launch",
+            "mainClass": "Functions",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WhileLoops",
+            "request": "launch",
+            "mainClass": "WhileLoops",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ForLoops",
             "request": "launch",
             "mainClass": "ForLoops",

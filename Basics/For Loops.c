@@ -10,4 +10,5 @@ int main(){
     }
 
     printf("10! is %d\n", factorial);
+    return 0;
 }
