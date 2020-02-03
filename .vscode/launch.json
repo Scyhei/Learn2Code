@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ForLoops",
+            "request": "launch",
+            "mainClass": "ForLoops",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Conditions",
+            "request": "launch",
+            "mainClass": "Conditions",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultidimensionalArrays",
+            "request": "launch",
+            "mainClass": "MultidimensionalArrays",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VariablesAndTypes",
+            "request": "launch",
+            "mainClass": "VariablesAndTypes",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Learn2Code_caec0481"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
