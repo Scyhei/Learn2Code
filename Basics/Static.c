@@ -6,6 +6,12 @@
 
 #include <stdio.h>
 
+/**By default, main is the name for our entry point. int refers to the data type that must be returned
+ * Usually the main function contains the parameters (int argc, char** argv) which refer to the arguments
+ * entered concurrently with the file
+*/
+
+/*Since this program does not need arguments to run, they will be omitted*/
 int not_static(){
     int count = 0;
     count++;
