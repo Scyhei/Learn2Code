@@ -17,9 +17,9 @@ int main(){
      * the second specifier is required so the compiler knows the boundaries of each dimension
     */
    char static_vowels[][5] = {{'A', 'E', 'I', 'O', 'U'}, 
-                       {'a', 'e', 'i', 'o', 'u'}, 
-                       {'U', 'O', 'I', 'E', 'A'}
-                       };
+                              {'a', 'e', 'i', 'o', 'u'}, 
+                              {'U', 'O', 'I', 'E', 'A'}
+                               };
     printf("%d\n", sizeof(static_vowels));
     printf("%s\n",static_vowels);
 
